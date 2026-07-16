@@ -1,4 +1,12 @@
 {
+  "name": "dropit-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cloudinary": "^2.10.0",
